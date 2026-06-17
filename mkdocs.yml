@@ -57,6 +57,7 @@ nav:
   #     - iot/index.md
   - Robotics:
       - robotics/index.md
+      - Lectures: robotics/lectures/index.md
       - Labs:
           - Overview: robotics/labs/index.md
           - "Lab 1: Hello, Robot!": robotics/labs/lab-01-hello-robot/README.md
@@ -64,5 +65,11 @@ nav:
           - "Lab 4: Mapping": robotics/labs/lab-04-mapping/README.md
           - "Lab 5: Path Planning": robotics/labs/lab-05-path-planning/README.md
           - "Lab 6: Tracking & Control": robotics/labs/lab-06-tracking-control/README.md
+      - Assessments:
+          - Overview: robotics/assessments/index.md
+          - "Course Summary": robotics/assessments/md/Course_Summary_V2.md
+          - "Formula Sheet": robotics/assessments/md/Formula_Sheet_V2.md
+          - "Practice Exam": robotics/assessments/md/Practice_Exam_V2.md
+          - "Answer Key": robotics/assessments/md/Practice_Exam_V2_Answer_Key.md
   # - Computer Vision:
   #     - computer-vision/index.md
