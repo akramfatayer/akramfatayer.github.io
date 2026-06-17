@@ -26,3 +26,4 @@ A unified home for three courses developed at ZUJ: **IoT**, **Robotics**, and **
 
 !!! note
     The course links above activate once each course repository is mounted as a submodule and its entry is uncommented in `mkdocs.yml`. See the repository README for the steps.
+
