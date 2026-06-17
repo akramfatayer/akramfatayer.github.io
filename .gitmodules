@@ -1,0 +1,3 @@
+[submodule "docs/robotics"]
+	path = docs/robotics
+	url = https://github.com/fatayer8891-boop/zuj-robotics.git

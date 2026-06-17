@@ -13,6 +13,7 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.indexes
+    - navigation.expand
     - toc.follow
     - search.suggest
     - search.highlight
@@ -50,14 +51,18 @@ markdown_extensions:
 plugins:
   - search
 
-# The scaffold builds immediately with just Home.
-# As you mount each course repo as a submodule under docs/ (see README),
-# uncomment its entry below. Paths point INTO the submodule folder.
 nav:
   - Home: index.md
   # - IoT:
   #     - iot/index.md
-  # - Robotics:
-  #     - robotics/index.md
+  - Robotics:
+      - robotics/index.md
+      - Labs:
+          - Overview: robotics/labs/index.md
+          - "Lab 1: Hello, Robot!": robotics/labs/lab-01-hello-robot/README.md
+          - "Lab 3: Localization": robotics/labs/lab-03-localization/README.md
+          - "Lab 4: Mapping": robotics/labs/lab-04-mapping/README.md
+          - "Lab 5: Path Planning": robotics/labs/lab-05-path-planning/README.md
+          - "Lab 6: Tracking & Control": robotics/labs/lab-06-tracking-control/README.md
   # - Computer Vision:
   #     - computer-vision/index.md
